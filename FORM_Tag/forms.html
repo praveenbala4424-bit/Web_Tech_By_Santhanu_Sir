@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <p>Please fill out the form below to register as a student.</p>
+    <form action="">
+        <fieldset>
+             <legend>Personal Information</legend>
+              <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+        <input type="hidden" name="student_id" value="12345">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Enter your age"><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+        <label for="gender">Gender:</label>
+        <input type="checkbox" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="checkbox" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <label for="area">Area of Interest:</label>
+        <input type="checkbox">computer_science 
+        <input type="checkbox" value="DataScience">Data_Science
+        <input type="checkbox">Artificial_Intelligence<br><br>
+        <label for="hobbies">Hobbies:</label>
+        <select name="hobbies" id="hobbies" >
+            <option>Select any option</option>
+            <option>Sports</option>
+            <option>Music</option>
+            <option>Reading</option>
+            <option>Traveling</option>
+        </select><br><br>
+        <label for="city">City:</label>
+        <input type="checkbox">Bangalore
+        <input type ="checkbox">Chennai
+        <input type ="checkbox">Hyderabad
+        <input type ="checkbox">Others<br><br>
+        <label for="Skills">Skills:</label>
+        <select name="Programming">
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="javascript">JavaScript</option>
+        </select><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>
