@@ -1,2 +1,6 @@
 "# Web_Tech_By_Santhanu_Sir" 
 .vscode/
+node_modules/
+dist/
+*.log
+.DS_Store
